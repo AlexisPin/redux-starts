@@ -1,0 +1,37 @@
+.form-container {
+  border: 1px solid #6dab2d94;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 4px rgba(81, 173, 10, 0.3);
+  margin: 20px 25%;
+  width: 50%;
+
+  form {
+    display: flex;
+    background: linear-gradient(#46cf4d, #4ccae9);
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 5px;
+
+    input,
+    textarea {
+      border: 1px solid $color-4;
+      font-family: "Amiri", serif;
+      padding: 5px 10px;
+      resize: none;
+    }
+
+    input[type="submit"] {
+      margin: auto;
+      border-radius: inherit;
+    }
+    input[type="text"] {
+      margin-bottom: 6px;
+      border-radius: inherit;
+    }
+    textarea {
+      margin-bottom: 6px;
+      height: 80px;
+      border-radius: inherit;
+    }
+  }
+}

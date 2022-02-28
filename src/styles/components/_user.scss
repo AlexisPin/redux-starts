@@ -1,0 +1,33 @@
+.user-container {
+  margin-left: 10px;
+  position: relative;
+
+  .user {
+    border: 1px solid $color-2;
+    text-align: center;
+    position: fixed;
+    width: 190px;
+    padding: 16px;
+    border-radius: 5px;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    background-color: rgba(209, 171, 122, 0.418);
+    border-radius: inherit;
+  }
+
+  img {
+    border-radius: 150px;
+    height: 70px;
+    object-fit: cover;
+    margin: 10px 0 8px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    background-color: rgba(112, 164, 207, 0.418);
+    border-radius: inherit;
+    margin: 5px;
+  }
+}
