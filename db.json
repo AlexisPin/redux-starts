@@ -27,6 +27,11 @@
       "pseudo": "User1",
       "likes": 115,
       "id": 1
+    },
+    {
+      "pseudo": "User2",
+      "likes": 0,
+      "id": 2
     }
   ]
 }
